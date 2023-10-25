@@ -8,4 +8,4 @@ Utilizando HTML, CSS e Javascript construa uma página Web que atenda aos seguin
 - É preciso apresentar ao usuário um formulário com os campos: RA, Nome, Data de Nascimento;
 - No final da página deve existir um botão de adição que quando pressionado inclua os dados informados no formulário na tabela.
 
-Link do youtube: 
+Link do youtube:  https://www.youtube.com/watch?v=iYfzFRR3nKM
