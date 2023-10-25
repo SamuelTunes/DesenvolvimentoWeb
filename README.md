@@ -1,4 +1,4 @@
-# DesenvolvimentoWeb
+# Ativiadade 7
 Projetos para a diciplina de Desenvolvimento Web
 
 Utilizando HTML, CSS e Javascript construa uma página Web que atenda aos seguintes requisitos:
