@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Alunos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Tabela de Alunos</h1>
+    <div class="container">
+        <form id="aluno-form" class="form">
+            <label for="ra">RA:</label>
+            <input type="text" id="ra" required><br>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required><br>
+
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" required><br>
+			
+				
+            <button type="button" id="add-button" class="add-button">Adicionar Aluno</button>
+        </form>
+		
+        <table id="aluno-table" class="table">
+            <thead>
+                <tr>
+                    <th class= "column-small">RA</th>
+                    <th class= "column-large">Nome</th>
+                    <th class= "column-small">Data de Nascimento</th>
+					<th class= "column-small">Telefone</th>
+                    <th class= "column-small">Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

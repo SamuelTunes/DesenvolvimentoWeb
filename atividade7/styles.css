@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.form {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 15%;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.table {
+    flex: 1;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+	
+}
+
+td {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.column-large{
+	width: 30%;
+}
+
+.column-small{
+	width:17.5%;
+}
+.add-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-button:hover {
+    background-color: #005f79;
+}
+
+input{
+	padding: 5px;
+	width: 95%;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .form {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .table {
+        max-width: 100%;
+    }
+}
+
